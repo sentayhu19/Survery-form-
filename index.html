@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/styles/index.css">
+  <link rel="stylesheet"  href="styles/index.css">
+  
   <title>Survey Form</title>
 </head>
 <body>
@@ -45,6 +46,41 @@
         <td>    <label for="recom">Not Sure</label><br> </td>
       </tr>
     </table>
-    </form>
-    </body>
+   
+   
+
+    <label for="imp">What would you like to see improved? (Check all that apply)</label><br> 
+    <table>
+  <tr> <td>
+        <input type="checkbox" name="imp" value="imp">
+    </td>
+    <td>
+<label for="imp">Front-End Projects</label><br>
+    </td>
+  </tr>
+  
+      <tr>
+        <td>
+    <input type="checkbox" name="imp" value="imp">
+        </td>
+        <td>
+          <label for="imp">Back-End Projects</label><br> </td>
+      </tr>
+    <tr>
+      <td>
+    <input type="checkbox" name="imp" value="imp">
+      </td>
+      <td>
+    <label for="imp">Data Visualization</label><br>
+      </td>
+      </tr>
+     </table>
+     <label for="com">Add comments or suggestions?</label><br> 
+    <textarea id="comments" name="comments" rows="5" cols="33" placeholder = "Your comment are valuable">
+
+</textarea><br>
+    <input type="submit" id="submit" value="Submit">
+  </form>
+</body>
+
 </html>
