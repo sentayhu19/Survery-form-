@@ -28,7 +28,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
       rgba(58, 58, 158, 0.8),
       rgba(136, 136, 206, 0.7)
     ),
-    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    url(file:///D:/Microverse/Challenge%20With%20B/Survery-form-/image/laptop-g75aca3310_1920.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -57,4 +57,82 @@ h1 {
 
 p {
   font-size: 1.125rem;
+}
+
+
+h1,
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+form {
+  background: var(--color-darkblue-alpha);
+  border-radius: 0.25rem;
+}
+  
+ form input {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  width: 90%;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+ form select {
+  width: 90%;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+ form select option{
+  width: 90%;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  color: black;
+  height: 18px;
+  font-size: 18px;
+}
+
+ form [type=radio]{
+  height: 25px;
+  color: black;
+  font-size: 18px;
+   padding: 0px!important;
+}
+form label{
+  display: flex;
+  align-items: left;
+  font-size: 1.125rem;
+  margin-bottom: 0.1rem;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+
+
+form textarea{
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.1rem;
+  padding: 10px;
+  width: 97%;
+  color: black;
+  font-size: 16px;
+}
+
+form [type=submit] {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: var(--color-green);
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
 }
